@@ -12,13 +12,13 @@ with open("scaler.pkl", "rb") as file:
 
 # Page settings
 st.set_page_config(
-    page_title="Coronary Heart Disease Prediction by Vishnupriya",
+    page_title="Coronary Heart Disease Prediction",
     page_icon="❤️",
     layout="centered"
 )
 
 # Title
-st.title("Coronary Heart Disease Prediction by Vishnupriya")
+st.title("Coronary Heart Disease Prediction")
 
 st.write("Enter Patient's Details below:")
 
